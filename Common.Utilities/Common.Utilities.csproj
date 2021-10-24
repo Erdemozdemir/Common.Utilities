@@ -4,6 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>erdem.ozdemir</Authors>
+    <Product>BasicCommon.Utilities</Product>
+    <PackageId>BasicCommon.Utilities</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

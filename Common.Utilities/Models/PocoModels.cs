@@ -21,4 +21,16 @@ namespace Common.Utilities.Models
         [Description("Strawberry")]
         Strawberry = 3
     }
+
+    public class Result<T> : Result
+    {
+        public T Data { get; set; }
+    
+    }
+
+    public class Result
+    {
+        public string ErrorMessage { get; set; }
+        public bool IsSuccessful { get; set; }
+    }
 }
